@@ -25,7 +25,7 @@ const NavBar = () => {
         <div className={classes.root}>
             <AppsIcon />
             <div className={classes.brand}>
-                <Typography variant='h3'>Wild Carrot</Typography>
+                <Typography variant='h3'>{process.env.REACT_APP_APP_NAME}</Typography>
             </div>
             <Avatar>P</Avatar>
         </div>
